@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>قدّم طلبك | استدامة للتدريب الاحترافي</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="request">
+<div id="site-header"></div>
+<main>
+<div class="page-hero"><div class="wrap"><h1>قدّم طلبك</h1><p>اختر نوع الطلب، وسيظهر لك النموذج الخاص به.</p></div></div>
+<section><div class="wrap">
+<div class="req">
+<aside class="req-side">
+<h2>خطوات بسيطة</h2>
+<p>اختر نوع الطلب واملأ بياناته، وسنستلم طلبك مباشرة على واتساب.</p>
+<ol class="steps"><li><b>1</b>اختر نوع الطلب</li><li><b>2</b>املأ البيانات المطلوبة</li><li><b>3</b>أرسله عبر واتساب</li></ol>
+<a class="wa" href="https://wa.me/97433350520" target="_blank" rel="noopener">أو راسلنا مباشرة</a>
+</aside>
+<div class="req-main">
+<div class="types" id="types" role="tablist"></div>
+<form id="reqForm" class="form" novalidate>
+<div class="form-head"><h3 id="formTitle"></h3><p id="formHint"></p></div>
+<div class="fields" id="fields"></div>
+<p class="err" id="fErr" role="alert"></p>
+<p class="ok" id="fOk" role="status"></p>
+<button class="btn send" type="submit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 21l2.1-5.4A8.5 8.5 0 1 1 21 11.5z"/></svg>أرسل الطلب عبر واتساب</button>
+</form>
+</div></div>
+</div></section>
+</main>
+<div id="site-footer"></div>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
